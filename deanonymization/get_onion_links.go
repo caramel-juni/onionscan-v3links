@@ -2,10 +2,10 @@ package deanonymization
 
 import (
 	"fmt"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/model"
-	"github.com/s-rah/onionscan/report"
-	"github.com/s-rah/onionscan/utils"
+	"github.com/caramel-juni/onionscan-v3links/config"
+	"github.com/caramel-juni/onionscan-v3links/model"
+	"github.com/caramel-juni/onionscan-v3links/report"
+	"github.com/caramel-juni/onionscan-v3links/utils"
 	"net"
 	"net/url"
 	"regexp"
