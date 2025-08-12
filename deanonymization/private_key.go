@@ -56,3 +56,4 @@ func PrivateKey(osreport *report.OnionScanReport, report *report.AnonymityReport
 		}
 	}
 }
+

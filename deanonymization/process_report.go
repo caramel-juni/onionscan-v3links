@@ -46,3 +46,12 @@ func (eis *ExtractIdentifierStep) Do(osreport *report.OnionScanReport) error {
 	osreport.AnonymityReport = anonreport
 	return nil
 }
+
+func Deanonymize(host string) error {
+	if utils.IsOnionV3(host) {
+		// Stub: deanonymization for v3 is not yet supported
+		return nil
+	}
+	// For now, stub out v2 too
+	return nil
+}
